@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja</title>
+    <style media="screen">
+      form{
+            
+            
+            float: right;
+            
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-color: grey;
+        }
+        ul{
+            height: 100%;
+            list-style-type: none; 
+        }
+       ul li{
+        height: 100%;
+            line-height: 50px;
+            width: 100%;
+            
+            display: none;
+    
+    
+        }
+        li:hover{
+            opacity: 0.3;
+            color:green;
+        }
+        nav{
+            width: 25%; height:100%; top: 0; left: 0; color:white; background-color:chocolate;
+        }
+        nav:hover li{
+           display: block;
+        }
+        ul li a{
+            color:black;
+            padding: 3px 12px;
+            background-color: purple;
+            font-size: 18px;
+            position: relative;
+            
+        }
+        a:after{
+            content:"";
+            position: absolute;
+            background-color: aquamarine;
+            height: 3px;
+            width: 0;
+            left:0;
+            bottom: -10px;
+            transition: 0.3s;
+
+        }
+        
+        a:hover:after{
+            width:100%;
+
+        }
+
+        div{
+        position: fixed;
+        bottom: 40px;
+        left:20px;
+       }
+
+       .second{
+        flex: right;
+       }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <label for="Ashutosh">Search</label>
+        <input type="search" id="Ashutosh" name="searching">
+    </form>
+
+    <div class="Whatsapp">
+     <a href="https://wa.me/918796348705" target="_blank">
+      <img src="WhatsApp.png" alt="this is imageS" width="30">
+      </a>
+    </div>
+   
+    <nav ><h2>Dashboard</h2>
+        
+        <ul> 
+            <li><a href="#">Pooja Details</a></li>
+            <li><a href="#">Special pooja updates</a></li>
+            <li><a href="#">Devotees details</a></li>
+            <li><a href="#">Devotees outstanding Details</a></li>
+             <li><a href="#">Upcoming Event Details</a></li>
+        </ul>
+        
+    
+    </nav>
+
+  
+    Email us on <a href="mailto:ashutoshpawar1199@gmail.com">ashutoshpawar1199@gmail.com</a>
+   
+
+</body>
+</html>
